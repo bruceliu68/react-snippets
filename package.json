@@ -1,0 +1,83 @@
+{
+    "name": "dsy-react-snippets",
+    "displayName": "dsy-react-snippets",
+    "description": "DSY前端常用快捷命令",
+    "version": "1.0.0",
+    "publisher": "dsy-ued",
+    "icon": "images/logo.png",
+    "scripts": {
+        "make": "node make.js",
+        "vscode:prepublish": "npm run compile",
+        "prebuild": "npm run make",
+        "build": "vsce package",
+        "publish": "vsce publish",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "keywords": [
+        "snippets",
+        "react",
+        "redux",
+        "react-native",
+        "javascript",
+        "typescript"
+    ],
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tntd/react-snippets.git"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "extensionKind": "ui",
+    "main": "./out/index.js",
+    "activationEvents": [
+        "onCommand:extension.snippetSearch"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.snippetSearch",
+                "title": "ES7 snippet search"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.snippetSearch",
+                "key": "ctrl+alt+r",
+                "mac": "shift+cmd+r",
+                "when": "editorTextFocus"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/ds.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/ds.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "typescript": "3.4.2",
+        "vscode": "1.1.33",
+        "tslint": "5.15.0",
+        "@types/node": "11.13.0"
+    }
+}
