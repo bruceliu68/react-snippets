@@ -3,8 +3,12 @@
 直接输入快速命令后按tab
 
 ## 快捷键
+
+### ds
+dsAuthBtn、dsComIcon、dsDynamicFieldSet、dsEllipsis、dsFileUpload、dsGFrom、dsHookDvaPage、dsHookModal、dsHookModalDvaPage、dsHookModalPage、dsHookPage、dsHookTabs、dsIcon、dsModalForm、dsMoneyShow、dsNumRange、dsSearchTree、dsTableBtns
+
 ### page
-pageClass、pageClassDva、pageForm3Modal、pageForm4Class copy、pageForm4Hook、pageForm4Modal、pageHookDefalut、pageHookDva、pageHookModal、pageHookTable、pageModel、pageQueryList、pageService、pageTabPage、pageUpload
+pageClass、pageClassDva、pageHookDefalut、pageHookDva、pageHookModal、pageHookTable、pageModel
 
 ### antd
 antAlert、antAvatar、antBadge、antBreadcrumb、antButton、antButtonGroup、antCalendar、antCard、antCollapse、antConfirm、antDatePicker、antDescription、antDivider、antDrawer、antDropdown、antEmpty、antList、antModal、antNotification、antPagination、antPopconfirm、antPopover、antProgress、antRadio、antResult、antSelect、antSlide、antSpin、antStep、antSwitch、antTable、antTabs、antTimePicker、antTimeline、antTooltip、antTransfer、antTree、antTreeSelect、antUpload
@@ -13,7 +17,7 @@ antAlert、antAvatar、antBadge、antBreadcrumb、antButton、antButtonGroup、a
 cssBorderRadius、cssBoxShadow、cssColor、cssEllipsis、cssFontface、cssInsetShadow、cssNormalize、cssRotate、cssScrollbar、cssVerticalCenter
 
 ### func
-funcDispatch、funcForEach、funcMap、funcService、funcZhushi
+funcDispatch、funcForEach、funcMap、funcService、funcTableRender
 
 ### export
 exportArray、exportFunc

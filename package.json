@@ -2,7 +2,7 @@
     "name": "dsy-react-snippets",
     "displayName": "dsy-react-snippets",
     "description": "DSY前端常用快捷命令",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "dsy-ued",
     "icon": "images/logo.png",
     "scripts": {

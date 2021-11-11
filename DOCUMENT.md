@@ -8,7 +8,7 @@ lbcmy68@126.com
 vc3b3rea74vdewxqkpr6ggabr4gknbjucnvudjs3hkgvyvvk7cdq
 
 目前此应用沐风负责发布
-vsce create-publisher lbcmy68
+vsce create-publisher dsy-ued
 
 
 ## 使用方式
